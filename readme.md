@@ -109,4 +109,38 @@ The .env.local file dictates the secure connections between the web server, the 
     NEXTAUTH_SECRET=8f7e6d5c4b3a2109fedcba9876543210
 
 ---
+
+arkansas-court-cms/
+│
+├── .gitignore                  (Created in Step 2)
+├── package.json                (Created in Step 2)
+├── README.md                   (The markdown file from our previous step)
+├── tailwind.config.js          (Standard Tailwind config)
+├── postcss.config.js           (Standard PostCSS config)
+│
+├── lib/
+│   └── db.js                   (The MySQL connection pool)
+│
+└── app/
+    ├── globals.css             (Tailwind imports)
+    ├── layout.js               (Root layout with SessionWrapper)
+    ├── SessionWrapper.js       (NextAuth provider wrapper)
+    ├── page.js                 (The Public Search ARCourts UI)
+    │
+    ├── api/
+    │   ├── auth/
+    │   │   └── [...nextauth]/
+    │   │       └── route.js    (Discord OAuth logic)
+    │   └── cases/
+    │       └── route.js        (MySQL GET/POST API logic)
+    │
+    ├── file-case/
+    │   └── page.js             (The DA eFiling Portal UI)
+    │
+    ├── judge-portal/
+    │   └── page.js             (The Judge Dashboard UI)
+    │
+    └── cases/
+        └── [id]/
+            └── page.js         (The Dynamic Document View UI)
 *End of Technical Documentation. Unauthorized distribution of this system outside of ASRP is prohibited.*

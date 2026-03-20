@@ -109,7 +109,7 @@ The .env.local file dictates the secure connections between the web server, the 
     NEXTAUTH_SECRET=8f7e6d5c4b3a2109fedcba9876543210
 
 ---
-
+```
 arkansas-court-cms/
 │
 ├── .gitignore                  (Created in Step 2)
@@ -142,5 +142,5 @@ arkansas-court-cms/
     │
     └── cases/
         └── [id]/
-            └── page.js         (The Dynamic Document View UI)
+            └── page.js         (The Dynamic Document View UI)```
 *End of Technical Documentation. Unauthorized distribution of this system outside of ASRP is prohibited.*

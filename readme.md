@@ -112,9 +112,9 @@ The .env.local file dictates the secure connections between the web server, the 
 ```
 arkansas-court-cms/
 │
-├── .gitignore                  (Created in Step 2)
-├── package.json                (Created in Step 2)
-├── README.md                   (The markdown file from our previous step)
+├── .gitignore                  
+├── package.json                
+├── README.md                   
 ├── tailwind.config.js          (Standard Tailwind config)
 ├── postcss.config.js           (Standard PostCSS config)
 │
